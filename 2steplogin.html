@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CRYP-TEXT</title>
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+
+
+
+
+
+
+
+<body>
+    <py-script src="otpverification.py"></py-script>
+    <div class="content">
+        <h1>CRYPTONITE</h1>
+    </div>
+    <video autoplay muted loop id="myVideo">
+        <source src="background.mp4" type="video/mp4">
+
+    </video>
+
+    <form>
+        
+      
+        <div class="container">      
+            <label for="psw" style="color: green;"><b>EMAIL ID</b></label>
+            <input type="text" placeholder="Enter e-mail" name="psw" required style="background-color: black; color: aliceblue;">
+          <label for="psw" style="color: green;"><b>OTP</b></label>
+          <input type="password" placeholder="Enter OTP" name="psw" required style="background-color: black; color: aliceblue;">
+      
+          <button type="submit" onclick="validate" style="background-color: green;">Login</button>
+        </div>
+      </form>
+    
+</body>
+
+</html>
